@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { selectors, useSelector } from '../store'
+import { actions, selectors, useDispatch, useSelector } from '../store'
 
 const Controls = () => {
-  const { name } = useSelector(selectors.getActiveTask) || {}
+  const dispatch = useDispatch()
+  const { name, id } = useSelector(selectors.getActiveTask) || {}
   return (
     <div style={{ padding: '1rem', background: '#D6F3FF' }}>
       <h1>Controls</h1>
@@ -17,7 +18,12 @@ const Controls = () => {
         <button style={{ marginLeft: '1rem' }} disabled data-testid="move-back-btn">
           Move back
         </button>
-        <button style={{ marginLeft: '1rem' }} disabled data-testid="move-forward-btn">
+        <button
+          style={{ marginLeft: '1rem' }}
+          data-testid="move-forward-btn"
+          onClick={() => dispatch(actions.moveForward({ id }))}
+          disabled={!name}
+        >
           Move forward
         </button>
       </div>
