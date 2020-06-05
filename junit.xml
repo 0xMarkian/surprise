@@ -1,0 +1,124 @@
+<testsuites name="jest tests" tests="8" failures="8" time="1.243">
+  <testsuite name="undefined" errors="0" failures="8" skipped="0" timestamp="2020-06-05T08:10:18" time="1.243" tests="8">
+    <testcase classname=" Clicking on any card should display the name in textbox" name=" Clicking on any card should display the name in textbox" time="0.085">
+      <failure>Error: expect(element).toHaveValue(task 1)
+
+Expected the element to have value:
+  task 1
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:67:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Once the card selected based on the current stage able move forward and backward" name=" Once the card selected based on the current stage able move forward and backward" time="0.048">
+      <failure>Error: expect(element).toHaveValue(task 4)
+
+Expected the element to have value:
+  task 4
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:86:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" If the card/task selected from the 1st stage should disable the &quot;Move backward&quot; button." name=" If the card/task selected from the 1st stage should disable the &quot;Move backward&quot; button." time="0.042">
+      <failure>Error: expect(element).toHaveValue(task 0)
+
+Expected the element to have value:
+  task 0
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:118:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" If the card/task selected from the last stage should disable the &quot;Move forward&quot; button." name=" If the card/task selected from the last stage should disable the &quot;Move forward&quot; button." time="0.044">
+      <failure>Error: expect(element).toHaveValue(task 9)
+
+Expected the element to have value:
+  task 9
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:138:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" After selecting task from 2nd stage and clicking on Move forward button move the card to 3rd stage." name=" After selecting task from 2nd stage and clicking on Move forward button move the card to 3rd stage." time="0.045">
+      <failure>Error: expect(element).toHaveValue(task 5)
+
+Expected the element to have value:
+  task 5
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:160:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" After selecting task from 2nd stage and clicking on Move backward button move the card to 1st stage." name=" After selecting task from 2nd stage and clicking on Move backward button move the card to 1st stage." time="0.043">
+      <failure>Error: expect(element).toHaveValue(task 5)
+
+Expected the element to have value:
+  task 5
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:185:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Move forward an item till the last state and should disable the move forward button" name=" Move forward an item till the last state and should disable the move forward button" time="0.042">
+      <failure>Error: expect(element).toHaveValue(task 0)
+
+Expected the element to have value:
+  task 0
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:211:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Move backward an item till the first state and should disable the move backward button" name=" Move backward an item till the first state and should disable the move backward button" time="0.048">
+      <failure>Error: expect(element).toHaveValue(task 9)
+
+Expected the element to have value:
+  task 9
+Received:
+
+    at Object.&lt;anonymous&gt; (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/src/App.test.js:241:29)
+    at Object.asyncFn (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/markian/Projects/9cac2f51-fd54-4fd3-a471-6b50e2054acb/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

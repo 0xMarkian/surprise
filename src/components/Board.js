@@ -1,25 +1,24 @@
-import React from 'react';
+import React from 'react'
 
-import Stage from './Stage';
+import Stage from './Stage'
+import { useSelector, selectors } from '../store'
 
-const Board = ({ stagesNames, stagesTasks }) => {
+const Board = () => {
+  const stages = useSelector(selectors.getStages)
   return (
     <div>
       <h1>Kanban board</h1>
-      <div style={{
-        display: 'flex',
-      }}>
-        {stagesTasks.map((tasks, idx) => (
-          <Stage
-            stageId={idx}
-            key={stagesNames[idx]}
-            name={stagesNames[idx]}
-            tasks={tasks}
-          />
+      <div
+        style={{
+          display: 'flex',
+        }}
+      >
+        {stages.map(({ id, name, tasks }, idx) => (
+          <Stage id={id} key={name} name={name} tasks={tasks} />
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default Board;
+export default Board
